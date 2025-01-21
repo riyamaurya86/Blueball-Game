@@ -1,0 +1,82 @@
+h1{
+    color: #000ddd;
+    margin-inline: 500px;
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+}
+body {
+   border: 10px;
+   background: linear-gradient(to right, rgb(166, 246, 252), rgb(254, 249, 176));
+}
+
+.section1.box{
+    margin-top: 70px;
+    margin-inline: 370px;
+    padding: 20px;
+    padding-right: 25px;
+    width: 50%; 
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(36, 28, 28, 0.299);
+    max-width: 400px;
+    background: linear-gradient(to right, rgb(254, 249, 176),rgb(166, 246, 252));
+}
+h2{
+    margin-inline: 25px;
+}
+
+.section2 {
+    margin-top: 80px;
+    margin-inline: 470px;
+    padding-left: 45px;
+}
+#ok{
+    background-color: rgb(16, 252, 40);
+    border-color: rgb(16, 252, 40);
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.button{
+    border-radius: 50%;
+    padding: 20px;
+    margin: 3px;
+    background-color: rgb(252, 227, 136);
+}
+
+#button-container{
+    padding: 20px;
+    block-size: 20px;
+
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Push content to the bottom */
+    height: 60px; /* Example height */
+}
+.setblue{
+    background-color:blue ;
+}
+.setgreen{
+    background-color:green ;
+}
+.setred{
+    background-color:red ;
+}
+
+#start{
+    padding-inline: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-inline: 560px;
+    background-color: rgb(18, 255, 74);
+    border: #ccc;
+}
+
+#state{
+    margin-inline: 560px;
+}
